@@ -14,8 +14,7 @@ LOCAL_SHARED_LIBRARIES := \
     libutils \
     libbinder \
     libcutils \
-    libhardware_legacy \
-    librilutils
+    libhardware_legacy
 
 LOCAL_CFLAGS :=
 
@@ -36,8 +35,7 @@ LOCAL_SRC_FILES:= \
 
 LOCAL_STATIC_LIBRARIES := \
     libutils_static \
-    libcutils \
-    librilutils_static
+    libcutils
 
 LOCAL_CFLAGS :=
 
